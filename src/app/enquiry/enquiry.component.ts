@@ -37,7 +37,7 @@ message:[""],
 
 
 
-  sumbit(){
+  submit(){
 
     
 
@@ -50,7 +50,7 @@ message:[""],
     const message=this.enquiryform.value.message;
 
     
-this.EnquiryService.sumbit(name,phoneNumber,email,message)
+this.EnquiryService.submit(name,phoneNumber,email,message)
    
 this.router.navigateByUrl("/history")
   }

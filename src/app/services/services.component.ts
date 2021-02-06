@@ -15,7 +15,7 @@ export class EnquiryService {
   }
   //name: string, phonenumber: string, email: string, message: string
 
-  sumbit = (name: string, phonenumber: string, email: string, message: string) => {
+  submit = (name: string, phonenumber: string, email: string, message: string) => {
 
     this.enquiries.push({
 
